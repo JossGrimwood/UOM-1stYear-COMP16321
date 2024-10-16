@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Home</title>
+        <link rel="stylesheet" type="text/css" href="pageStyles.css"/>
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+        integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+        crossorigin=""/>
+        <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+        integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
+
+    </head>
+    <form class="search">
+      <input type="text" placeholder="Search.." name="search">
+      <button type="submit">Search</button>
+    </form>
+    <body>
+        <header>Boat Buddies
+        </header>
+        <aside>
+
+            <h1>Filters</h1>
+            <div class="sidenav">
+            <div class="dropdown">
+              <button class="dropbtn">Ship type</button>
+              <div class="dropdown-content">
+                <label class="container"> 
+                  <input type="checkbox" checked="checked">
+                  Cargo
+                  <span class="checkmark"></span>
+                </label>
+                <label class="container">
+                  <input type="checkbox">
+                  Passengers
+                  <span class="checkmark"></span>
+                </label>
+                <label class="container">
+                  <input type="checkbox">
+                  Tankers
+                  <span class="checkmark"></span>
+                </label>
+                <label class="container">
+                  <input type="checkbox">
+                  Fishing
+                  <span class="checkmark"></span>
+                </label>
+                <label class="container">
+                  <input type="checkbox">
+                  Special
+                  <span class="checkmark"></span>
+                </label>
+                <label class="container">
+                  <input type="checkbox">
+                  Unspecified
+                  <span class="checkmark"></span>
+                </label>
+                <label class="container">
+                  <input type="checkbox">
+                  High Speed
+                  <span class="checkmark"></span>
+                </label>
+                
+              </div>
+
+              <!--<h1>Map Layer</h1>
+
+              <label class="container">
+                <input type="radio" id="default" name="mapLayer" value="tiles" onclick="changeLayer(this.value)" checked="checked">
+                Default
+                <span class="radio"></span>
+              </label>
+              <label class="container">
+                <input type="radio" id="nautical" name="mapLayer" value="nautical" onclick="changeLayer(this.value)" checked="unchecked">
+                Nautical Chart
+                <span class="radio"></span>
+              </label>
+              <label class="container">
+                <input type="radio" id="satellite" name="mapLayer" value="satellite" onclick="changeLayer(this.value)" checked="unchecked">
+                Satellite
+                <span class="radio"></span>
+              </label>-->
+
+            </div>            
+            
+        </aside>
+        <main>
+            <div id="map"></div>
+        </main>
+        <footer>
+            Become a Boat Buddy today!
+        </footer>
+    </body>
+    <script src="map.js"></script>
+</html>
+
+
+

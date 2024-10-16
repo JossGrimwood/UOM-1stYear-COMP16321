@@ -1,0 +1,14 @@
+This document sets forth the license for the items included in this archive.
+
+DATA SAMPLE
+
+You are licensed to use the data sample or its derivate for serving map tiles
+exclusively with MapTiler Server or MapTiler Cloud and in accordance with their
+licenses and terms set forth at https://www.maptiler.com/server/license/ and 
+https://www.maptiler.com/cloud/terms/. The data sample must not be used
+with any other software or service.
+
+Please ensure that you comply with the license restrictions above, however, if
+you plan to use the data sample in a different way or with a different software,
+subscribe to a commercial license (see https://www.maptiler.com/data/package/)
+or contact us at sales@maptiler.com.

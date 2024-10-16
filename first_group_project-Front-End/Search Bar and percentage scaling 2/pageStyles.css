@@ -1,0 +1,163 @@
+			body {
+
+				background-color:lightskyblue;
+
+			}
+
+
+			header {
+
+ 				background-color: lightskyblue;
+ 				color: white;
+ 				text-align: left;
+ 				height: 1.3em;
+ 				font-family: Times New Roman;
+ 				color: white;
+ 				font-size: 40px;
+ 				text-align: left;
+ 				font-weight: bold;
+
+ 			}
+
+ 		    title {
+
+ 		    	margin-left: 1.5em;
+ 		    	color: white;
+
+ 		    }
+
+ 			nav {
+
+ 				background-color: #898CF3;
+ 				color: #898CF3;
+ 				border-color: #898CF3;
+ 				border-top-color: #898CF3;
+ 				border-style: solid;
+ 				text-align: center;
+ 				
+
+ 			}
+
+
+ 			aside {
+
+ 				background-color: #898CF3;
+ 				border-top-color: white;
+ 				border-right-color: white;
+ 				border-top-style: solid;
+ 				border-right-style: solid;
+ 				text-align: center;
+ 				font-family: Courier New;
+ 				color: white; 
+ 				height: 45em;
+ 				width: 12%;
+ 				line-height: 2em;
+ 				float: left;
+
+
+ 			}
+
+ 			main {
+
+ 				background-color: lightskyblue;
+ 				border-top-color: white;
+ 				border-top-style: solid;
+ 				padding-left: 10.9375em;
+ 				height:90%
+
+ 			}
+
+ 			footer {
+
+ 				background-color: lightskyblue;
+ 				height: 6.25em;
+ 				display: flex;
+ 				justify-content: center;
+ 				font-family: Courier New;
+ 				color: white;
+ 				font-size: 30px;
+ 				text-align: left;
+
+
+ 			}
+
+ 			img {
+
+ 				height: 3.125em;
+ 				padding: 0.625em;
+
+ 			}
+
+ 			.container {
+			  display: block;
+			  padding-left: 35px;
+			  margin-bottom: 12px;
+			  cursor: pointer;
+			  font-size: 22px;
+			  -webkit-user-select: none;
+			  -moz-user-select: none;
+			  -ms-user-select: none;
+			  user-select: none;
+			  text-align: left;
+			
+
+			}
+
+
+ 			#map {
+
+ 				height: 60em;
+ 				width: 96%;
+
+ 			}
+ 			form.search button {
+			  padding: 10px;
+			  background: #2196F3;
+			  color: white;
+			  font-size: 17px;
+			  border: 1px solid grey;
+			  border-left: none; /* Prevent double borders */
+			  cursor: pointer;
+			  position: absolute;
+			  left: 95%;
+			}
+			form.search input[type=text] {
+			  padding: 10px;
+			  font-size: 17px;
+			  border: 1px solid grey;
+			  position: absolute;
+			  left: 75%;
+			  width: 20%;
+			  background: #f1f1f1;
+			  move
+
+
+			}
+			head{
+
+			}
+			.dropbtn {
+			  background-color: #898CF3;
+			  color: white;
+			  padding: 16px;
+			  font-size: 16px;
+			  border: none;
+			  font-family: Courier New;
+ 			  color: white;
+ 			  font-size: 20px;
+ 			  font-weight: bold; 
+ 			  width: 223px;
+			}
+			.dropbtn:hover{
+			  background-color: #5252E4;
+			}
+			.dropdown-content {
+			  display: none;
+			  position: absolute;
+			  min-width: 223px;
+			  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+			  z-index: 1;
+			}
+
+			.dropdown:hover .dropdown-content {display: block;}
+
